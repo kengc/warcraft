@@ -10,4 +10,13 @@
 
 @interface Unit : NSObject
 
+@property (nonatomic) int healthPoints;
+@property (nonatomic) int ap;
+
+
+
+- (instancetype)initWithHP:(int)hp AP:(int)ap;
+- (int)withDamage:(int)damage;
+- (int)healthPoints;
+
 @end

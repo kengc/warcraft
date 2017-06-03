@@ -7,9 +7,25 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Unit.h"
 
-@interface Footman : NSObject
+@interface Footman : Unit
 
-@property (assign) int healthPoints;
+//@property (assign) int healthPoints;
+@property (assign) int attackPower;
+@property (assign) int damage;
+@property (assign) int hp;
+//@property (nonatomic) Unit *unit;
+//@synthesize healthPoints = _healthPoints;
+
+//-(void)damage:(int)damage;
+
+- (void)damage:(int)damage;
+- (int)healthPoints;
+- (void)attack:(Unit *)enemy withDamage:(int)damage;
+
+//-(void)attack:(Unit *)unit withDamage:(int)damage;
+//- (int)healthPoints;
+
 
 @end
