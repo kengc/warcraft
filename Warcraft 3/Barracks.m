@@ -102,7 +102,7 @@
 
 -(BOOL)canTrainFootman{
     
-    if([self food] > 2 && [self gold] >= 135){
+    if([self food] >= 2 && [self gold] >= 135){
         return YES;
     } else {
         return NO;
