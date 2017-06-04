@@ -16,14 +16,8 @@
 //@property (assign) int attackPower;
 
 
-
-
-//@property (assign) int healthPoints;
-//@property (assign) int attackPower;
 @property (assign) int damage;
-//@property (assign) int hp;
-//@property (nonatomic) Unit *unit;
-//@synthesize healthPoints = _healthPoints;
+
 
 //-(void)damage:(int)damage;
 

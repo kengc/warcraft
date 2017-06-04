@@ -16,7 +16,7 @@
     self = [super init];
     if (self) {
         _healthPoints = hp;
-        _ap = ap;
+        _attackPower = ap;
     }
     return self;
 }

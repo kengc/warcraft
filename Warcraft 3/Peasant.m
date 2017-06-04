@@ -16,7 +16,7 @@
     if (self) {
         //_healthPoints = 35;
         return [super initWithHP:35 AP:0];
-        _attackPower = 0;
+        //_attackPower = 0;
         _gold = 1000;
     }
     return self;

@@ -12,7 +12,7 @@
 @interface Peasant : Unit
 
 //@property (nonatomic) int healthPoints;
-@property (nonatomic) int attackPower;
+//@property (nonatomic) int attackPower;
 @property (nonatomic) int gold;
 
 //- (int)healthPoints;

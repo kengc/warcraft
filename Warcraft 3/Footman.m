@@ -15,6 +15,8 @@
     
     self = [super init];
     if (self) {
+        return [super initWithHP:60 AP:10];
+        
         //_healthPoints = 60;
        // _hp = 60;
         //_hp = [Unit HealthPoints];
@@ -25,13 +27,9 @@
 }
 
 
-//-(void)damage:(int)damage{
-//    //return _healthPoints -= damage;
-//      //healthPoints -= damage;
-//      _hp -= damage;
-//    //[super withDamage:damage];
-//     //self.healthPoints  -= damage;
-//}
+-(void)damage:(int)damage{
+      self.healthPoints -= damage;
+}
 
 //- (int)healthPoints{
 //    //return super.healthPoints;
