@@ -11,17 +11,24 @@
 
 @interface Footman : Unit
 
+//in `Unit.h` then footman will inherit these and you can remove all the properties
 //@property (assign) int healthPoints;
-@property (assign) int attackPower;
+//@property (assign) int attackPower;
+
+
+
+
+//@property (assign) int healthPoints;
+//@property (assign) int attackPower;
 @property (assign) int damage;
-@property (assign) int hp;
+//@property (assign) int hp;
 //@property (nonatomic) Unit *unit;
 //@synthesize healthPoints = _healthPoints;
 
 //-(void)damage:(int)damage;
 
 - (void)damage:(int)damage;
-- (int)healthPoints;
+//- (int)healthPoints;
 - (void)attack:(Unit *)enemy withDamage:(int)damage;
 
 //-(void)attack:(Unit *)unit withDamage:(int)damage;
